@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Los Ladronzuelos de las Bicicletas</h1>
+    <form action="#" method="get">
+        <input type="reset"><br><br>
+        <fieldset>
+            <table>
+                <tr>
+                    <td><label for="fecha">Día en el que te robaron la bicicleta</label></td>
+                    <td><input type="date" id="fecha" name="fecha" tabindex="1" autofocus="autofocus"></td>
+                </tr>
+                <tr>
+                    <td><label for="tiempo">Hora a la que te robaron la bicicleta</label></td>
+                    <td><input type="time" id="tiempo" name="tiempo" tabindex="2"></td>
+                </tr>
+                <tr>
+                    <td><label for="color">¿Color de la bicicleta?</label></td>
+                    <td><input type="color" id="pregunta" name="pregunta" tabindex="3"></td>
+                </tr>
+                <tr>
+                    <td><label for="precio">¿Cuál fue el precio de tu bicicleta aproximado?</label></td>
+                    <td><input type="range" id="precio" name="precio" tabindex="4"></td>
+                </tr>
+                <tr>
+                    <td><label for="tipobicicleta">Tipo de bicicleta</label></td>
+                    <td><select id="tipobicicleta">
+                        <label for="tipobicicleta">Tipo de bicicleta:</label>
+                        <option value="">-- Seleccionala --</option>
+                        <optgroup label="Paseo"></optgroup>
+                        <option value="seniorial">Señorial</option>
+                        <option value="anti-plebeyos">Anti-plebeyos</option>
+                        <option value="por-encima-del-hombro">Por por encima del hombro</option>
+                        <optgroup label="Montaña"></optgroup>
+                        <option value="gamusinos">Gamusinos</option>
+                        <option value="huele-flores">Hueleflores premium</option>
+                        <option value="fango-lover">Fango lover</option>
+                        <optgroup label="Carreras"></optgroup>
+                        <option value="metroymedio">Metroymedio</option>
+                        <option value="trestarde">Tres de la tarde. Fluorescente edition</option>
+                        <option value="grupitors">Grupitors</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>¿Que accesorios usas en tu bicicleta?</td>
+                    <td>
+                        <input type="checkbox" id="pregunta" name="pregunta"> Ruedines
+                        <input type="checkbox" id="pregunta" name="pregunta"> Pegatinas
+                        <input type="checkbox" id="pregunta" name="pregunta"> Cestita
+                        <input type="checkbox" id="pregunta" name="pregunta"> Bomba de aire
+                        <input type="checkbox" id="pregunta" name="pregunta"> Timbre
+                        <input type="checkbox" id="pregunta" name="pregunta"> Foco
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>¿Qué marca era?</td>
+                    <td>
+                        <input list="marcas" name="Marcas" /></label>
+                        <datalist id="marcas">
+                          <option value="specialized">
+                          <option value="trek">
+                          <option value="merida">
+                          <option value="scott">
+                          <option value="giant">
+                          <option value="cube">
+                          <option value="lapierre">
+                          <option value="orbea">
+                          <option value="cannondale">                          
+                          <option value="bmc">
+                          <option value="canyon">
+                          <option value="look">
+                          <option value="protek">
+                          <option value="megamo">
+                          <option value="pinarello">                           
+                          <option value="bianchi">
+                          <option value="bh">
+                          <option value="factor">                          
+                          <option value="ghost">
+                          <option value="cervélo">
+                          <option value="argon">                          
+                        </datalist>
+                    </td>
+                </tr>
+            </table>
+        </fieldset><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

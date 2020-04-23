@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Club Viejuner</h1>
+    <form action="#" method="get">
+        <input type="reset"><br><br>
+            <fieldset>
+                <legend><b>Tú</b></legend>
+                <table>
+                    <tr>
+                        <td> <label for="nombre"> Nombre: </label> </td>
+                        <td> <input type="text" id="nombre" name="user_name" tabindex="1" autofocus="autofocus" placeholder="Nombre"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nombre"> Apellidos: </label></td>
+                        <td><input type="text" id="nombre" name="user_name" tabindex="2" placeholder="Apellidos"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="edad"> Edad: </label></td>
+                        <td><input type="number" min=0 id="edad" name="edad" tabindex="3"placeholder="Edad"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sexo">Sexo:</label></td>
+                        <td><input type="radio" id="sexo" name="sexo" value="hombre"tabindex="4"> Hombre
+                        <input type="radio" id="sexo" name="sexo" value="mujer" tabindex="5"> Mujer
+                        <input type="radio" id="sexo" name="sexo" value="otro" tabindex="6"> Otro</td>
+                    </tr>
+                    <tr>
+                        <td><label for="viejuner"> ¿Te sientes viejuner?</label></td>            
+                        <td><input type="checkbox" id="viejuner" name="viejuner" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sobreti">Escribe algo sobre ti</label></td>
+                        <td><textarea id="sobreti" tabindex="7" rows="4" cols="50" placeholder="Escribe lo que quieras sobre ti."></textarea></td>
+                    </tr>
+                </table>
+        </fieldset>
+        <fieldset>
+            <legend><b>Tus circunstancias</b></legend>
+            <table>
+                <tr>
+                    <td><label for="correo">Correo electrónico:</label></td>
+                    <td><input type="email" id="correo" name="correo" tabindex="8" placeholder="Tu correo electrónico"></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" id="telefono" name="telefono" tabindex="9" placeholder="Tu teléfono móvil"></td>
+            </table>
+        </fieldset><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
